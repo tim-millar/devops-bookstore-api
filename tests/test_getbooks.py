@@ -18,3 +18,5 @@ class GetBooksTest(unittest.TestCase):
         self.assertEqual(3, len(response.json['books']))
 
 
+if __name__ == '__main__':
+    unittest.main()
